@@ -35,7 +35,7 @@ Antes de rodar este projeto, certifique-se de que as seguintes ferramentas estej
 
 2. **Suba os containers:**
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 3. **Acesse no navegador:**
