@@ -65,17 +65,17 @@ Antes de rodar este projeto, certifique-se de que as seguintes ferramentas estej
 
 ### 🔄 Subir containers
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### ⏹ Parar os containers
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### ⏹ Parar e remover também os volumes (dados serão apagados)
 ```bash
-docker-compose down -v
+docker compose down -v
 ```
 
 ### 👀 Listar containers ativos
