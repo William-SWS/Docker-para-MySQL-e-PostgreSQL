@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:17
     container_name: postgres_db
     restart: always
     environment:
@@ -15,7 +15,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   mysql:
-    image: mysql:latest
+    image: mysql:8.4.8
     container_name: mysql_db
     restart: always
     environment:
