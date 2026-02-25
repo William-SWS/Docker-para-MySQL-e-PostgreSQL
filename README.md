@@ -35,7 +35,7 @@ Antes de rodar este projeto, certifique-se de que as seguintes ferramentas estej
 
 2. **Suba os containers:**
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 3. **Acesse no navegador:**
@@ -43,7 +43,7 @@ Antes de rodar este projeto, certifique-se de que as seguintes ferramentas estej
    | Serviço       | URL                   | Usuário          | Senha     |
    |---------------|------------------------|------------------|-----------|
    | pgAdmin       | http://localhost:8080 | admin@admin.com  | admin     |
-   | phpMyAdmin    | http://localhost:8081 | william          | william   |
+   | phpMyAdmin    | http://localhost:8081 | mysql-user          | mysql-password   |
 
 4. **Conecte-se ao PostgreSQL no pgAdmin:**
 
@@ -65,17 +65,17 @@ Antes de rodar este projeto, certifique-se de que as seguintes ferramentas estej
 
 ### 🔄 Subir containers
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### ⏹ Parar os containers
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### ⏹ Parar e remover também os volumes (dados serão apagados)
 ```bash
-docker-compose down -v
+docker compose down -v
 ```
 
 ### 👀 Listar containers ativos

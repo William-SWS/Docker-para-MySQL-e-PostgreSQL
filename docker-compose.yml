@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:17
     container_name: postgres_db
     restart: always
     environment:
@@ -15,14 +15,14 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   mysql:
-    image: mysql:latest
+    image: mysql:8.4.8
     container_name: mysql_db
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root 
       MYSQL_DATABASE: banco
-      MYSQL_USER: william
-      MYSQL_PASSWORD: william
+      MYSQL_USER: mysql-user
+      MYSQL_PASSWORD: mysql-password
     ports:
       - "3306:3306"
     volumes:
