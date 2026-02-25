@@ -43,7 +43,7 @@ Antes de rodar este projeto, certifique-se de que as seguintes ferramentas estej
    | Serviço       | URL                   | Usuário          | Senha     |
    |---------------|------------------------|------------------|-----------|
    | pgAdmin       | http://localhost:8080 | admin@admin.com  | admin     |
-   | phpMyAdmin    | http://localhost:8081 | william          | william   |
+   | phpMyAdmin    | http://localhost:8081 | mysql-user          | mysql-password   |
 
 4. **Conecte-se ao PostgreSQL no pgAdmin:**
 

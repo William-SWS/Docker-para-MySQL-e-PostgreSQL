@@ -21,8 +21,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root 
       MYSQL_DATABASE: banco
-      MYSQL_USER: william
-      MYSQL_PASSWORD: william
+      MYSQL_USER: mysql-user
+      MYSQL_PASSWORD: mysql-password
     ports:
       - "3306:3306"
     volumes:
